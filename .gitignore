@@ -4,3 +4,9 @@ priv
 *.o
 *.beam
 *.plt
+
+
+*.iml
+.idea/*
+
+
