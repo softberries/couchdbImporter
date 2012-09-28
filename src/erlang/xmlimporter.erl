@@ -8,7 +8,7 @@
 
 
 %start() -> run("/Users/kris/Downloads/dbdump_artistalbumtrack.0.290905586176.xml",0).
-start() -> run("../../data/testsmall.xml",0).
+start() -> run("testsmall.xml",0).
 
 %% Read the file and execute the callback fun for each tag (start/end and character content)
 run(File, Result) ->
@@ -138,8 +138,11 @@ processStartTag(T,Acc) ->
 %% Closeing tags and resetting counters..
 %
 processEndTag(<<"artist">>,Acc) ->
-  io:format("END: ~p~n",[Acc]),
+  [_,_,_,_,ArtistData] = Acc,
+%  io:format("END: ~p~n",[{ArtistData}]),
+  hovercraft:save_doc(<<"erlang_music">>,{ArtistData}),
   [];
+
 processEndTag(<<"Albums">>,Acc) -> [Path,_,_,_,Artist] = Acc, [_|Queue] = Path, [ Queue, 0,0,0, Artist];
 processEndTag(<<"Tracks">>,Acc) -> [Path,AlbumNumber,_,_,Artist] = Acc, [_|Queue] = Path, [ Queue, AlbumNumber,0,0, Artist];
 processEndTag(<<"Tags">>,Acc) -> [Path,AlbumNumber,TrackNumber,_,Artist] = Acc, [_|Queue] = Path, [ Queue, AlbumNumber,TrackNumber,0, Artist];

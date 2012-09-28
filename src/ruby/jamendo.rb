@@ -1,3 +1,7 @@
+#
+#This script is slightly modified version of the script found within a great book
+#'Seven Databases in Seven Weeks' by Eric Redmond and Jim R. Wilson
+#
 require 'rubygems'
 require 'libxml'
 require 'couchrest'
@@ -7,7 +11,7 @@ include LibXML
 class JamendoCallbacks
   include XML::SaxParser::Callbacks
   def initialize()
-    @db = CouchRest.database("http://localhost:5984/music")
+    @db = CouchRest.database("http://localhost:5984/ruby_music")
     @startTime = Time.now
     @count = 0
     @max = nil
