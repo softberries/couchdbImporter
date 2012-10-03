@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<JamendoData epoch="1345766577" documentation="http://developer.jamendo.com/en/wiki/DatabaseDumps"
+             type="artistalbumtrack">
+    <Artists>
+        <artist>
+            <id>370255</id>
+            <name>""ATTIC""</name>
+            <url>http://www.jamendo.com/artist/ATTIC_(3)</url>
+            <mbgid></mbgid>
+            <Albums>
+                <album>
+                    <id>94168</id>
+                    <name>UP IN THE ATTIC !</name>
+                    <url>http://www.jamendo.com/album/94168</url>
+                    <releasedate>2011-07-05T01:05:52+01:00</releasedate>
+                    <filename>ATTIC - UP IN THE ATTIC !</filename>
+                    <mbgid></mbgid>
+                    <license_artwork>http://creativecommons.org/licenses/by-nc-sa/3.0/</license_artwork>
+                    <Tracks>
+                        <track>
+                            <id>804908</id>
+                            <name>No No No</name>
+                            <duration>213.0</duration>
+                            <numalbum>1</numalbum>
+                            <filename>01 - ATTIC - No No No</filename>
+                            <Tags>
+                                <tag>
+                                    <idstr>rock</idstr>
+                                    <weight>0.125</weight>
+                                </tag>
+                            </Tags>
+                            <mbgid></mbgid>
+                            <license>http://creativecommons.org/licenses/by-nc-sa/3.0/</license>
+                        </track>
+                        <track>
+                            <id>804909</id>
+                            <name>i'm a dog!!!</name>
+                            <duration>229.0</duration>
+                            <numalbum>2</numalbum>
+                            <filename>02 - ATTIC - i'm a dog!!!</filename>
+                            <Tags>
+                                <tag>
+                                    <idstr>rock</idstr>
+                                    <weight>0.125</weight>
+                                </tag>
+                            </Tags>
+                            <mbgid></mbgid>
+                            <license>http://creativecommons.org/licenses/by-nc-sa/3.0/</license>
+                        </track>
+                    </Tracks>
+                </album>
+            </Albums>
+        </artist>
+        </Artists>
+    </JamendoData>

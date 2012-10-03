@@ -4,7 +4,7 @@
         <artist>
             <id>22</id>                                          <!-- internal jamendo ID -->
             <name>Lonah</name>                                   <!-- display name -->
-            <url>http://www.jamendo.com/en/artist/lonah</url>    <!-- jamendo url to artist -->
+            <url>http://www.jamendo.com/artist/ATTIC_(3)</url>    <!-- jamendo url to artist -->
             <image>http://imgjam.com/artists/l/lonah.jpg</image> <!-- artist image url -->
             <mbgid>79239441-bfd5-4981-a70c-55c3f15c1287</mbgid>  <!-- musicbrainz ID (may be blank) -->
             <location>                                           <!-- structure about the main location of the artist -->
